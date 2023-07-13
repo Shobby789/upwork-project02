@@ -212,7 +212,7 @@ body {
   background-size: cover;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 22px;
-  animation: slider2 25s linear infinite;
+  animation: slider2 15s linear infinite;
   /* padding: 50px; */
 }
 
