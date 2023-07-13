@@ -64,7 +64,7 @@ body {
   background-color: black;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 22px;
-  animation: changeImage 15s linear infinite;
+  animation: changeImage 20s linear infinite;
   text-align: center;
   padding: 50px;
 }
@@ -212,7 +212,7 @@ body {
   background-size: cover;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 22px;
-  animation: slider2 15s linear infinite;
+  animation: slider2 20s linear infinite;
   /* padding: 50px; */
 }
 
