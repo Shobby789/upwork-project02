@@ -17,17 +17,6 @@ body {
   align-items: center;
 }
 
-.img-box {
-  border: 0px solid black;
-  width: 390px;
-  height: 90%;
-  border-radius: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-shadow: 0 0 12px silver;
-}
-
 .left-box {
   width: 45%;
   height: 95vh;
@@ -35,6 +24,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.img-box {
+  /* border: 0px solid black; */
+  width: 80%;
+  height: 90%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 12px silver;
 }
 
 .text {
@@ -50,7 +50,7 @@ body {
 }
 
 .text > p {
-  font-size: 17px;
+  font-size: 1.6vw;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -66,7 +66,11 @@ body {
   border-bottom-right-radius: 22px;
   animation: changeImage 20s linear infinite;
   text-align: center;
-  padding: 50px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
 }
 
 @keyframes changeImage {
@@ -89,14 +93,18 @@ body {
 
 .slider > h1 {
   color: yellow;
-  font-size: 5rem;
+  font-size: 4.5em;
+  font-weight: bolder;
   text-transform: uppercase;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
+  /* border: 2px solid black; */
+  width: 100%;
 }
 
 .slider > h2 {
-  font-size: 2rem;
+  width: 100%;
+  font-size: 2.1em;
   line-height: -10px;
   color: white;
   letter-spacing: 1px;
@@ -106,8 +114,7 @@ body {
   text-shadow: -4px 0px 0px rgb(36, 20, 20), 1px 0px 0px rgb(28, 25, 25),
     0px -1px 0px rgb(26, 21, 21), 0px 1px 0px rgb(21, 19, 19);
   color: white;
-  width: 90%;
-  /* border: 2px solid white; */
+  /* border: 2px solid black; */
   margin: 0 auto;
   font-stretch: expanded;
 }
@@ -115,8 +122,11 @@ body {
 #price {
   position: relative;
   text-align: left;
-  left: 30px;
-  top: -20px;
+  left: 17%;
+  align-self: flex-start;
+  /* top: 0em; */
+  /* border: 2px solid black; */
+  width: 60%;
 }
 
 #red-text {
@@ -124,7 +134,7 @@ body {
     0px -1px 0px rgb(26, 21, 21), 0px 1px 0px rgb(21, 19, 19);
   color: red;
   position: relative;
-  top: -10px;
+  /* top: -10px; */
 }
 
 /* right-box */
@@ -132,14 +142,15 @@ body {
   /* border: 1px solid black; */
   width: 65%;
   height: 95vh;
-  padding: 34px 0 10px 20px;
+  padding: 3% 0 10px 20px;
   text-align: center;
 }
 
 .logo {
   width: 95%;
   /* border: 1px solid black; */
-  height: 60px;
+  /* height: 60px; */
+  height: 11%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -151,13 +162,17 @@ body {
 
 .logo > p {
   font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
+  font-size: 1.5vw;
   font-weight: 500;
 }
 .logo .line {
   width: 1px;
-  height: 30px;
+  height: 60%;
   border: 1px solid white;
+}
+
+.logo h2 {
+  font-size: 1.8vw;
 }
 
 .logo .topTv {
@@ -171,7 +186,7 @@ body {
 
 .cards {
   width: 95%;
-  height: 380px;
+  height: 70%;
   margin: 10px 0;
   /* border: 1px solid black; */
   display: flex;
@@ -198,14 +213,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 1.4vw;
   color: white;
   font-family: "Courier New", Courier, monospace;
 }
 
 .card .card-slider {
   width: 100%;
-  height: 86%;
+  height: 84%;
   background-image: url("./images/girl-1.jpg");
   /* linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(58, 142, 220) 83.8%); */
   background-position: center;
@@ -214,6 +229,10 @@ body {
   border-bottom-right-radius: 22px;
   animation: slider2 25s linear infinite;
   /* padding: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 @keyframes slider2 {
@@ -246,15 +265,15 @@ body {
   /* border: 1px solid black; */
   text-align: center;
   position: relative;
-  top: 180px;
-  left: 30px;
-  margin-bottom: 10px;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
 }
 .text1 {
   color: yellow;
 }
 .text2 {
   color: white;
+  margin-bottom: 10%;
 }
 
 .card .card-steps {
@@ -270,21 +289,22 @@ body {
 
 .card-steps .date {
   background-color: rgb(218, 218, 218);
-  padding: 8px 10px;
+  padding: 0.7vw 1vw;
   border-radius: 10px;
   font-weight: 500;
+  font-size: 1.4vw;
 }
 
 .card-steps .date-text {
   padding: 0 10px;
   text-align: right;
+  font-size: 1.2vw;
 }
 
 .sliding-text {
   background-color: white;
   color: black;
   font-weight: 500;
-  font-size: 13px;
   overflow: hidden;
 }
 
@@ -292,7 +312,7 @@ body {
   float: left;
   text-align: center;
   margin-right: 0px;
-  font-size: 13px;
+  font-size: 1.4vw;
   transform: translateX(110%);
   animation: scrollingText 13s linear infinite;
   font-family: "Courier New", Courier, monospace;
@@ -309,10 +329,10 @@ body {
 
 .sliding-text button {
   background-color: red;
-  line-height: 60px;
-  padding: 0 20px;
+  height: 100%;
+  padding: 0 4%;
   color: white;
-  font-size: 18px;
+  font-size: 1.6vw;
   font-weight: 600;
   border: none;
   outline: none;
