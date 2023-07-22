@@ -20,14 +20,12 @@ body {
 .left-box {
   width: 45%;
   height: 95vh;
-  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .img-box {
-  /* border: 0px solid black; */
   width: 80%;
   height: 90%;
   border-radius: 25px;
@@ -98,7 +96,6 @@ body {
   text-transform: uppercase;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
-  /* border: 2px solid black; */
   width: 100%;
 }
 
@@ -114,7 +111,6 @@ body {
   text-shadow: -4px 0px 0px rgb(36, 20, 20), 1px 0px 0px rgb(28, 25, 25),
     0px -1px 0px rgb(26, 21, 21), 0px 1px 0px rgb(21, 19, 19);
   color: white;
-  /* border: 2px solid black; */
   margin: 0 auto;
   font-stretch: expanded;
 }
@@ -124,8 +120,6 @@ body {
   text-align: left;
   left: 17%;
   align-self: flex-start;
-  /* top: 0em; */
-  /* border: 2px solid black; */
   width: 60%;
 }
 
@@ -134,12 +128,10 @@ body {
     0px -1px 0px rgb(26, 21, 21), 0px 1px 0px rgb(21, 19, 19);
   color: red;
   position: relative;
-  /* top: -10px; */
 }
 
 /* right-box */
 .right-box {
-  /* border: 1px solid black; */
   width: 65%;
   height: 95vh;
   padding: 3% 0 10px 20px;
@@ -148,8 +140,6 @@ body {
 
 .logo {
   width: 95%;
-  /* border: 1px solid black; */
-  /* height: 60px; */
   height: 11%;
   display: flex;
   justify-content: space-evenly;
@@ -188,7 +178,6 @@ body {
   width: 95%;
   height: 70%;
   margin: 10px 0;
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
@@ -222,13 +211,11 @@ body {
   width: 100%;
   height: 84%;
   background-image: url("./images/girl-1.jpg");
-  /* linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(58, 142, 220) 83.8%); */
   background-position: center;
   background-size: cover;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 22px;
   animation: slider2 25s linear infinite;
-  /* padding: 50px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -262,7 +249,6 @@ body {
   font-size: 19px;
   font-weight: bold;
   width: 80%;
-  /* border: 1px solid black; */
   text-align: center;
   position: relative;
   font-size: 1.5vw;
