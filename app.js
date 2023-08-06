@@ -1,50 +1,24 @@
-var img = document.getElementById("img");
-
-var slides = [
-  "nature_scene_2.jpg",
-  "nature_scene_3.jpg",
-  " nature_scene_4.jpg",
-  "nature_scene_5.jpg",
-  "nature_scene_6.jpg",
-  "nature_scene_7.jpg",
-  "nature_scene_8.jpg",
-  "nature_scene_1.jpg",
-];
-
-var Start = 0;
-
-function slider() {
-  if (Start < slides.length) {
-    Start = Start + 1;
-  } else {
-    Start = 1;
-  }
-  console.log(img);
-  img.innerHTML = "<img src=" + slides[Start - 1] + ">";
+function first() {
+  document.getElementById("leftSlider").src = "./images/2.jpg";
+  document.getElementById("slideImage").src = "./images/girl-2.jpg";
 }
 
-var img = document.getElementById("img");
-
-var slides = [
-  "nature_scene_2.jpg",
-  "nature_scene_3.jpg",
-  "nature_scene_4.jpg",
-  "nature_scene_5.jpg",
-  "nature_scene_6.jpg",
-  "nature_scene_7.jpg",
-  "nature_scene_8.jpg",
-  "nature_scene_1.jpg",
-];
-
-var Start = 0;
-
-function slider() {
-  if (Start < slides.length) {
-    Start = Start + 1;
-  } else {
-    Start = 1;
-  }
-  console.log(img);
-  img.innerHTML = "<img src=" + slides[Start - 1] + ">";
+function second() {
+  document.getElementById("leftSlider").src = "./images/3.jpg";
+  document.getElementById("slideImage").src = "./images/girl-3.jpg";
 }
-setInterval(slider, 2000);
+
+function third() {
+  document.getElementById("leftSlider").src = "./images/4.jpg";
+  document.getElementById("slideImage").src = "./images/girl-4.jpg";
+}
+
+function fourth() {
+  document.getElementById("leftSlider").src = "./images/1.jpg";
+  document.getElementById("slideImage").src = "./images/girl-1.jpg";
+}
+
+setInterval(first, 3000);
+setInterval(second, 6000);
+setInterval(third, 12000);
+setInterval(fourth, 18000);
