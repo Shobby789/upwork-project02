@@ -238,9 +238,9 @@ body {
   -moz-transform: translateY(100%);
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
-  -moz-animation: my-animation 10s linear infinite;
-  -webkit-animation: my-animation 10s linear infinite;
-  animation: my-animation 10s linear infinite;
+  -moz-animation: my-animation 8s linear infinite;
+  -webkit-animation: my-animation 8s linear infinite;
+  animation: my-animation 8s linear infinite;
   overflow: hidden;
 }
 /* for Firefox */
@@ -265,9 +265,9 @@ body {
 
 @keyframes my-animation {
   from {
-    -moz-transform: translateY(280%);
-    -webkit-transform: translateY(280%);
-    transform: translateY(280%);
+    -moz-transform: translateY(300%);
+    -webkit-transform: translateY(300%);
+    transform: translateY(300%);
   }
   to {
     -moz-transform: translateY(-250%);
