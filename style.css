@@ -323,8 +323,8 @@ body {
 
 /* swiper js */
 swiper-container {
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
   z-index: 10;
 }
 
@@ -347,4 +347,6 @@ swiper-slide img {
   height: 100%;
   object-fit: cover;
   border: none !important;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
 }
