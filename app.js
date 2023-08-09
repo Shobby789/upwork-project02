@@ -1,3 +1,18 @@
+const getItems = async () => {
+  try {
+    await fetch("/api", {
+      method: "GET",
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        localStorage.setItem("images", data);
+        console.log(data.data);
+      });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 function first() {
   document.getElementById("leftSlider").src = "./images/2.jpg";
   document.getElementById("slideImage").src = "./images/girl-2.jpg";
