@@ -26,8 +26,9 @@ body {
 }
 
 .img-box {
-  width: 85%;
+  width: 82%;
   height: 90%;
+  /* border: 1px solid black; */
   border-radius: 25px;
   display: flex;
   flex-direction: column;
